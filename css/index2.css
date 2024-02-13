@@ -1,0 +1,218 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-items: center;
+}
+.logo {
+   display:inline-block;
+   width: 100px;
+   margin-left: 1%;
+}
+.logopic {
+    max-width: 60%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.button1 {
+    padding: 12px 16px;
+    margin-right: 5%;
+    border-style: none;
+    font-size:25px;
+    color: #6A3C6A;;
+    background-color: #ffffff;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    transition: 0.5s;
+}
+.button1:hover {
+    background-color:#6A3C6A;
+    color:white;
+
+}
+.divbuttons {
+    display: flex;
+    justify-content:flex-end;
+ }
+.profilepic {
+    width:30%;
+   border-radius: 20px;
+}
+.herolmg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10%;   
+}
+.name {
+   color:#6A3C6A;
+   font-size: 100px;
+   display: inline-block;
+   margin: 0;
+}
+.intro {
+    font-size: 50px;
+    margin: 2;
+    color:  rgb(71, 71, 71);  
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    align-items: center;
+    height:100px;
+}
+.button2 {
+    padding: 12px 16px;
+    border-style: none;
+    font-size:25px;
+    color: #6A3C6A;;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.5s;
+}
+.button2:hover {
+    background-color:#6A3C6A;
+    color:white;
+}
+.footerbuttons {
+        display: flex;
+        justify-content: flex-end;
+}
+.casestudy1 {
+    display: flex;
+    justify-content: center;
+}
+.govwebsite:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.govwebsite {
+    display: block;
+    width: 80%;
+    height: auto;
+    border-radius: 40px;
+}
+.title1 {
+    display:inline-block;
+    margin-left: 9.75%;
+    color: rgb(71, 71, 71);
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.govintro {
+    margin-left: 9.75%;
+    color: rgb(99, 99, 99);
+    font-size: 30px;
+    margin-right: 10%;
+}
+.casestudy2 {
+    display: flex;
+    justify-content: center;
+}
+.barkbooker {
+        width: 80%;
+        border-radius: 40px;
+}
+.barkbooker:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.title2 {
+    display:inline-block;
+    margin-left: 9.75%;
+    color: rgb(71, 71, 71);
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.barkintro {
+    margin-left: 9.75%;
+    color: rgb(99, 99, 99);
+    font-size: 30px;
+    margin-right: 10%;
+}
+.casestudy3 {
+    display: flex;
+    justify-content: center;
+}
+.mainplace {
+    width: 80%;
+    border-radius: 40px;
+}
+.mainplace:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.title3 {
+    display:inline-block;
+    margin-left: 9.75%;
+    color: rgb(71, 71, 71);
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.mainplaceintro {
+    margin-left: 9.75%;
+    color: rgb(99, 99, 99);
+    font-size: 30px;
+    margin-right: 10%;
+}
+.resume {
+    margin-left: 9.75%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: flex-start;
+}
+.resume {
+    padding: 12px 16px;
+    margin-left: 9.75%;
+    border-style: none;
+    font-size:25px;
+    color: #ffffff;
+    background-color: #6A3C6A;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.resume:hover {
+    background-color: #C098C0;
+    color:#6A3C6A;
+}   
+.dropbtn {
+    color: #6A3C6A;
+    background-color: #ffffff;
+    font-size:25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 12px 16px;
+    font-size: 25px;
+    border: none;
+  }
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #6A3C6A;
+    color: white;
+    transition: 0.5s;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
